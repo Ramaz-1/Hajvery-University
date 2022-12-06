@@ -1,0 +1,176 @@
+.small-line {
+  border-top: 2px solid #921123;
+  width: 80px;
+}
+.span-box-icon {
+  font-size: 1.8rem;
+  color: #921123;
+}
+.p1 {
+  width: 220px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+.apply-btns {
+  button:nth-child(1) {
+    height: 60px;
+    background: #921123;
+    color: white;
+    font-weight: bold;
+    border: transparent;
+  }
+  button:nth-child(2) {
+    height: 60px;
+    background: grey;
+    color: white;
+    font-weight: bold;
+    border: transparent;
+  }
+  button:nth-child(3) {
+    height: 60px;
+    background: grey;
+    color: white;
+    font-weight: bold;
+    border: transparent;
+  }
+}
+.bg-grey {
+  background: #d9d9d9;
+}
+.semester-text-para {
+  background: #921123;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  p {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+  }
+}
+.border-radius {
+  border-radius: 20px;
+}
+.border-bottom {
+  border-bottom: 8px solid #921123 !important;
+}
+.para-scholrship {
+  width: 600px;
+  font-size: 20px;
+  line-height: 1.8;
+}
+.li {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 2;
+}
+.view-more-btn {
+  height: 50px;
+  width: 200px;
+  background: #921123;
+  color: white;
+}
+.degree-suit-pic {
+  height: 300px;
+  width: 300px;
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+}
+.form-box-shadow {
+  box-shadow: 0px 0px 3px 1px #cfc7c7;
+  padding: 10px 0px;
+}
+.containers-fluid-height {
+  height: 600px;
+}
+.box-shadow-fee-box {
+  box-shadow: 0px 0px 0px 2px #ddd4d4;
+}
+.table {
+  th {
+    width: 250px;
+    height: 50px;
+    border: 1px solid rgb(207, 204, 204);
+    font-size: 20px;
+    font-weight: lighter;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  td {
+    width: 225px;
+    height: 50px;
+    border: 1px solid rgb(207, 204, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.box-shadow {
+  box-shadow: 0px 0px 0px 1px rgb(219, 219, 219);
+}
+.career-opportunities {
+  height: 60px;
+  width: 60px;
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+}
+.border-radius {
+  border-radius: 7px;
+  border: 1px solid #921123;
+}
+.line-height{
+  line-height: 1.8 !important;
+}
+
+.height-slick-carousel{
+  height: 300px;
+}
+.position-mini-carousel{
+  .slick-slider
+{
+  position:relative !important;
+ 
+.slick-slide{
+  display: flex;
+  justify-content: center;
+}
+}
+}
+.margin-left{
+  margin-left:2rem;
+}
+.career-opportunities-img{
+  height: 120px;
+  width: 120px;
+  img{
+    height: 100%;
+    width: 100%;
+  }
+}
+.position-bottom{
+  position: absolute !important;
+  top: 0px;
+
+}
+.container-height{
+  height: 600px;
+}
+
+@media only screen and (max-width:1024px) {
+  
+.mb-col-form{
+  display: flex;
+  flex-direction: column !important;
+}
+.width-auto{
+  width: auto !important;
+}
+}

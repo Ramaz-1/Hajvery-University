@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.margin-top-container {
+  margin-top: 8rem;
+}
+.text-decoration-line:hover {
+  text-decoration: underline;
+}
+.time-period {
+  color: grey;
+}
+.img-scale-onhover:hover img {
+  transform: scale(1.05);
+  transition: 0.8s;
+}
+@media screen and (max-width: 1024px) {
+  .margin-top-container {
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,43 @@
+.wrapper-footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+
+.socail-footer-icon:nth-child(1):hover{
+  color:rgb(135, 137, 235) !important;
+}
+.socail-footer-icon:nth-child(2):hover{
+  color: green !important;
+}
+.socail-footer-icon:nth-child(3):hover{
+  color: orangered !important;
+}
+.socail-footer-icon:nth-child(4):hover{
+  color: red !important;
+}
+@media only screen and (max-width: 1024px) {
+  .padding-top-col {
+    padding: 0px 1rem;
+  }
+}
+.socail-footer-icon {
+  color: white !important;
+}
+
+.cursor-link{
+  cursor: pointer !important;
+}
+
+.cursor-link:hover{
+  border-bottom:2px solid maroon;
+  padding-bottom: 5px;
+  transition: 0.5s;
+}
+.hover-color:hover{
+  color:maroon;
+  transition: 0.8s !important;
+}
+.font-size-footer{
+  font-size: 32px !important;
+}

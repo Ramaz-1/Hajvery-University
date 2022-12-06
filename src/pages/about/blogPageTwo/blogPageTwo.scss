@@ -1,0 +1,33 @@
+.text-width-hec {
+  width: 600px;
+  p {
+    line-height: 2;
+    font-size: 18px;
+  }
+}
+
+.text-list {
+  list-style-type: none;
+  li {
+    text-decoration: none;
+    font-size: 18px;
+  }
+  li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+}
+.country-box-shadow {
+  box-shadow: 0px 0px 2px 1px rgb(212, 212, 212);
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.row-bottom-shadow {
+  box-shadow: 0px 2px 0px 0px #dfdfdf;
+  border-radius: 10px;
+}

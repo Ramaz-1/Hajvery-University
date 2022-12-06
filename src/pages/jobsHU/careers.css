@@ -1,0 +1,45 @@
+.bgImg{
+    height: 520px;
+}
+.bgImg img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.mangement-font-size{
+    font-size: 4rem;
+}
+.border-left{
+    border-left: 2px solid white;
+}
+.color-jobs{
+    color: #337ab7;
+}
+th{
+    border: 1px solid white;
+}
+td{
+    border: 1px solid #921123;
+}
+.table{
+    display: none;
+}
+.border-left p{
+    border: 0;
+}
+@media screen and (max-width: 700px) {
+    .bgImg{
+        height: 130px;
+    }
+.mangement-font-size{
+    font-size: 2rem;
+}
+.table{
+    overflow: scroll;
+display: block;
+}
+.max-size{
+    display: none;
+}
+  }
+  

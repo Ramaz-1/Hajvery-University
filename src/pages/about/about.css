@@ -1,0 +1,136 @@
+.aboutImg {
+  width: 100%;
+}
+
+.aboutImg img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgb(211, 208, 208) !important;
+}
+
+.text-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.text-box p {
+  width: 800px;
+  line-height: 1.5 !important;
+  font-weight: inherit !important;
+  font-size: 21px !important;
+
+}
+.text-font-box{
+  font-size: 16px !important;
+  width: 800px;
+  line-height: 1.9;
+}
+.text-maroon {
+  font-weight: bold;
+}
+
+.border-right {
+  border-right: 2px solid #921123;
+}
+
+.img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.readMore {
+  font-weight: bold;
+  padding-bottom: 2px;
+text-decoration:underline;
+}
+.vision-text{
+  font-size: 3.5rem;
+}
+.vision-para-text{
+  font-weight: inherit !important;
+}
+.readMore:hover{
+  border-bottom: #921123;
+  color: #921123;
+}
+
+.readmore-white {
+  border-bottom: 2px solid white;
+  color: white;
+  width: fit-content;
+  font-weight: bold;
+}
+.readmore-white:hover{
+  color: maroon;
+  border-color: #921123;
+  transition: 0.5s !important;
+}
+.img-height {
+  height: 300px;
+}
+.img-height img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.hover-text{
+  border-bottom: 2px solid black;
+  width: fit-content;
+  border-radius:2px;
+  padding-bottom: 5px;
+}
+.onHover:hover {
+  background-color: #921123;
+  height: auto;
+  color: white;
+  transition: all 0.5s ease;
+}
+.white-box {
+  position: absolute;
+  bottom: 0px;
+  width: fit-content;
+  height: 50px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+}
+.text-font {
+  font-weight: bold;
+}
+.text-width {
+  width: 250px;
+}
+.bg-maroorn-color{
+  background-color: #921123;
+}
+.border-maroon {
+  border-top: 2px solid #921123;
+  width: 30px;
+}
+.border-top{
+  border-top: 1px solid rgb(201, 200, 200) !important;
+}
+@media only screen and (max-width: 700px) {
+  .text-box p {
+    width: 300px;
+  }
+  .mb-margin {
+    margin: 1rem;
+  }
+  .mb-hide {
+    display: none;
+  }
+  .mbpadding {
+    padding: 1rem;
+  }
+  .mb-font {
+    font-size: 16px !important;
+  }
+}

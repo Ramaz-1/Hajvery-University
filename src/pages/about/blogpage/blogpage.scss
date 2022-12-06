@@ -1,0 +1,63 @@
+.blog-text-width {
+  width: 500px;
+}
+.box-shadow-blog-box {
+  box-shadow: 0px 0px 3px 1px #ebdede;
+  border-radius: 10px;
+}
+
+.box-shadow-blog-box:hover {
+  transform: scale(1.05);
+  transition: 0.4s;
+  box-shadow: 0px 0px 6px 3px #ebdede;
+}
+.color-blue{
+    color: rgb(72, 15, 126);
+}
+
+.img-cover{
+  object-fit: cover;
+  width: 100%;
+  height: 500px;
+
+}
+.margin-bottom-em{
+  margin-bottom: 10rem !important;
+}
+.position{
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+.mb-margin-side{
+  margin: 0px 1rem;
+}
+
+.m-font{
+  font-size: 1.1rem;
+}
+  
+  }
+  .our-reputation-btn
+  {
+    background: white;
+    padding:1.2rem 1.2rem 1.5rem 1.5rem;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #921123;
+  }
+  .our-reputation-btn:hover{
+    background: #921123;
+    transition: 0.9s;
+    color: white;
+    cursor: pointer;
+  }
+

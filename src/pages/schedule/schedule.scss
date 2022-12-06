@@ -1,0 +1,27 @@
+.heading-row{
+
+    th{
+        padding:2rem;
+        background: whitesmoke;
+    }
+}
+.entry-row:nth-child(odd){
+    background-color: whitesmoke;
+}
+.entry-row{
+
+    td{
+        padding: 1rem;
+        border: 0px;
+        border: 1px solid whitesmoke !important;
+    }
+}
+
+
+@media only screen and  (max-width:1024px) {
+    .flow-scroll{
+        width: 100%;
+        overflow: scroll;
+        justify-content:unset !important;
+    }
+}

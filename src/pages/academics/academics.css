@@ -1,0 +1,88 @@
+.text-handler {
+  font-size: 21px;
+  word-spacing: 3px;
+  text-align: justify;
+  line-height: 2;
+}
+.degree_color {
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 1.2em;
+  letter-spacing: -0.2px;
+  font-size: 42px;
+  color: rgb(36, 46, 100);
+  font-size: 4rem;
+}
+.activeLink a {
+  color: #921123;
+}
+/* .activeLink .active{
+    background:#921123;
+    color: white !important;
+} */
+.otp {
+  font-weight: 600;
+  line-height: 1.2em;
+  letter-spacing: -0.2px;
+  font-size: 25px;
+  color: grey;
+}
+.otp:hover {
+  color: #921123;
+  transition: 1s;
+}
+.dropdown-width {
+  width: 300px;
+  background: white;
+}
+.dropdown-menu {
+  width: 500px;
+}
+#dropdown-button-dark-example1 {
+  width: 500px;
+  height: 50px;
+  background: white;
+  color: black;
+  border-radius: 5px !important;
+}
+.set-position {
+  position: relative;
+  top: -15px;
+}
+.borderTop {
+  border-top: 2px solid black;
+  width: 40px;
+}
+.card-body {
+  padding: 0px;
+  margin-top: 10px;
+}
+.card-text {
+  font-size: 1.5rem;
+  color: #921123;
+  margin-top: 10px;
+}
+.bg_image {
+  height: 520px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.img-up:hover{
+transform: scale(1.05);
+transition: 1s;
+}
+@media screen and (max-width: 700px) {
+  #dropdown-button-dark-example1 {
+    width: fit-content;
+  }
+  .flex-center {
+    display: flex;
+    justify-content: center;
+  }
+  .bg_image {
+    height: 130px;
+  }
+.activeLink{
+  text-align: start !important;
+}
+}

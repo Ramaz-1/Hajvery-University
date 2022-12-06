@@ -1,0 +1,45 @@
+.bgImage {
+  background-image: url("https://www.hup.edu.pk/wp-content/uploads/2022/05/Current-students_01-2.jpg");
+  height: 520px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.line_height {
+  font-size: 21px;
+  text-align: justify;
+  line-height: 1.6;
+}
+.boxShadow {
+  box-shadow: 0px 0px 0px 1px grey;
+}
+.imgBox {
+  height: 200px;
+  width: 100px;
+}
+.imgBox img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.boxShadow:hover{
+    background: black;
+    color: white;
+}
+.widthfull{
+    width: 100%;
+}
+.positionRelative{
+position: relative;
+top: -100px;
+}
+.fontSize{
+    font-size: 4rem;
+}
+@media only screen and (max-width: 700px) {
+    .positionRelative{
+        position: unset;
+    }
+    .bgImage{
+        height: 130px;
+    }
+  }

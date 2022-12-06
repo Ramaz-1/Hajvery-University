@@ -1,0 +1,26 @@
+.maroon-bg-row {
+  display: flex;
+  justify-content: center;
+  padding: 60px 10px;
+}
+.text-word-spacing {
+  word-spacing: 6px;
+  line-height: 1.8;
+}
+
+.view-more-btn {
+  background-color: #921123;
+  height: 70px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ border: 1px solid #921123;
+}
+.view-more-btn:hover{
+    background: white;
+    transition: 0.5s;
+    color: #921123;
+    cursor: pointer;
+}
+

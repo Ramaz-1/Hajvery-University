@@ -1,0 +1,70 @@
+.detail-col th {
+  width: 400px;
+  height: 60px;
+  border: 1px solid gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info-col td {
+  width: 750px;
+  height: 60px;
+  border: 1px solid gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.apply-btn {
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+}
+.apply-btn img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.url-hajvery {
+  border: 1px solid #921123;
+  padding: 10px;
+  background: #921123;
+  color: white;
+}
+.url-line-height:hover .url-hajvery {
+  background: white;
+  color: black;
+}
+.url-line-height {
+  line-height: 3rem;
+}
+
+@media screen and (max-width: 700px) {
+  .detail-col th {
+    width: auto;
+  }
+  .info-col td {
+    width: auto;
+  }
+  .url-hajvery {
+    padding: 2px;
+  }
+  .hajvery-url-setting {
+    display: flex;
+    flex-direction: column;
+  }
+  .text-center {
+    width: auto;
+  }
+  .mb-font-size{
+    font-size: 12px;
+  }
+  .text-center{
+    font-size: 12px;
+  }
+  td{
+    font-size: 12px;
+  }
+  .mb-font-size{
+    font-size: 12px;
+  }
+}
