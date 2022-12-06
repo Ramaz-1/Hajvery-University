@@ -39,6 +39,8 @@ import Scholarhip from "./pages/blogPages/scholarship";
 import Viewmore from "./pages/viewmore/viewmore";
 import Blogging from "./pages/Blogging/blogging";
 import Test from "./pages/test/test"
+import RichCirculum from "./pages/about/blogpage/richcirculum";
+import HUSOCITIES from "./pages/about/blogpage/hu-socities";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
@@ -78,6 +80,8 @@ root.render(
       <Route path="/blogs" element={<Blogging/>}/>
       <Route path="student-socitites" element={<Society/>}/>
       <Route path="/test/:id" element={<Test/>}/> 
+      <Route path="/richcirculum" element={<RichCirculum/>}/>
+      <Route path="/hu-socities" element={<HUSOCITIES/>}/>
     </Routes>
   </BrowserRouter>
 );

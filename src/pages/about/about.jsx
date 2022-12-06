@@ -12,11 +12,19 @@ function About() {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
 
+
+const husocities=()=>{
+  navigate("/hu-socities")
+}
+
   function readMore() {
     navigate("/blogreader");
   }
   function readMoreTwo() {
     navigate("/blogPageTwo");
+  }
+  const richcirculum=()=>{
+    navigate("/richcirculum")
   }
   const rowArray = [
     {
@@ -206,7 +214,7 @@ function About() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 img-height ">
+              <div className="col-md-6 img-height" onClick={()=>richcirculum()}>
                 <div>
                   <img
                     className="img-fluid"
@@ -234,7 +242,7 @@ function About() {
           </div>
           <div className="container">
             <div className="row justify-content-center my-5">
-              <div className="col-md-6">
+              <div className="col-md-6" onClick={()=>husocities()}>
                 <div className="img-height">
                   <img
                     src="./images/Vibrant-and-Energetic-Student-body-2 (1).jpg"

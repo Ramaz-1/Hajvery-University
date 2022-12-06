@@ -1,0 +1,33 @@
+.dotted-border{
+    border-left:dotted !important;
+}
+.position-to-border-box{
+    position: absolute;
+top: 90%;
+left: 50%;
+transform: translate(-50%,-50%);
+background: white;
+padding: 50px;
+width: 70% !important;
+}
+.margin-top-border{
+    margin-top: 7rem;
+}
+
+.code-block-counter{
+    border-bottom:dotted;
+    padding-bottom: 20px;
+}
+.border-left-rigth{
+    border-left: dotted;
+    border-right: dotted;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 40px
+}
+.round-border-img{
+        img{
+            border-radius:50%;
+            border: 4px solid rgb(218, 216, 216);
+        
+    }
+}
